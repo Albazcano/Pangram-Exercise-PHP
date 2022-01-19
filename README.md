@@ -27,4 +27,3 @@ or
 
 ### Pasos:
 
-# PangramExercise
