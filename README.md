@@ -27,3 +27,9 @@ or
 
 ### Pasos:
 
+1. Definir el alfabeto que vamos a utilizar.
+2. Convertir, en este caso, todas las palabras a minúsculas.
+3. Separar las palabras por letras.
+4. Comprobar que no se repita ninguna letra.
+5. Comparar el alfabeto elegido con las letras que componen la frase.
+6. Comprobar que se cumplan todas las condiciones.
