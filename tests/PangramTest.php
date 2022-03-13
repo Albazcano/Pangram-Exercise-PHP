@@ -1,23 +1,18 @@
 <?php
 
-declare(strict_types=1);
-
 namespace Test;
 use PHPUnit\Framework\TestCase;
 use App\Pangram;
 
 class PangramTest extends TestCase {
 
-    public static function setUpBeforeClass(): void
-    {
-        require_once 'Pangram.php';
-    }
     public function testSentenceEmpty(): void
     {
         $this->assertFalse(isPangram(''));
     }
     public function testPangramWithOnlyLowerCase(): void
     {
+        //Instanciar un nuevo pangram
         $this->assertTrue(isPangram('the quick brown fox jumps over the lazy dog'));
     }
     public function testMissingCharacterX(): void
